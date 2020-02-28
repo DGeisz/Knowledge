@@ -1,0 +1,5 @@
+Basically, you just put everything inside a NavigationContainer
+All the screens inside the NavContainer can be accessed via
+the navigation prop.  Really just look at the LearningReactNavigation thingy you did in the LearningReact repo.
+
+The navigation prop really seems to be the big deal here.  Also, to pass information to new screen, you use the route prop with its associated params.  Push creates new Screen, Navigate just goes to that screen.  For all your other needs, Just look at the documentation.  It's really quite good.  Also Modals are the things that pop up and cover the screen.  These are going to be of priciple importance in Crawlr.
