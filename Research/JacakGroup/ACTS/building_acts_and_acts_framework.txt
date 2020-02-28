@@ -1,0 +1,5 @@
+Important Things about building ACTS
+
+1. Use http://tylern4.github.io/InstallRoot/ to install root
+2. Use -DCMAKE_CXX_STANDARD=17 when building with CMake (this took two weeks to figure out)
+3. echo 'source ~/builddir/bin/thisroot.sh' >> ~/.bashrc to be able to access "root" command
